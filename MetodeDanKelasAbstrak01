@@ -50,20 +50,20 @@ class Tabung3D(Bangun3D):
           self.hitungVolume())
           
 def main():
-  onjl = Kotak(6, 5, 4)
+  obj1 = Kotak(6, 5, 4)
   print("BALOK")
-  objl.cetakData()
-  objl.cetakVolume()
+  obj1.cetakData()
+  obj1.cetakVolume()
   
-  objl2 = Kotak(5)
+  obj2 = Kotak(5)
   print("\nKUBUS")
-  objl2.cetakData()
-  objl2.cetakVolume()
+  obj2.cetakData()
+  obj2.cetakVolume()
   
-  objl3 = Tabung(3,4)
+  obj3 = Tabung(3,4)
   print("\nTABUNG")
-  objl3.cetakData()
-  objl3.cetakVolume()
+  obj3.cetakData()
+  obj3.cetakVolume()
   
 if __name__ == "__main__":
   main()
